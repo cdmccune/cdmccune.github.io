@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3AAA64;
+  color: #3893bd;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -32,7 +32,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #2d844e;
+  color: #2f7798;
 }
 
 a:focus {
@@ -65,16 +65,16 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #3893bd;
+  border: 1px solid #3893bd;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 a.btn-cta-primary:hover, .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
+  background: #2f7798;
+  border: 1px solid #2f7798;
   color: #fff;
 }
 
@@ -98,7 +98,7 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
 }
 
 .badge-theme {
-  background: #3AAA64;
+  background: #3893bd;
   font-size: 12px;
   color: #fff;
   border-radius: 2px;
@@ -228,8 +228,9 @@ a.dotted-link:hover {
   margin-bottom: 60px;
 }
 
+/* This was 60 */
 .latest .featured {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .latest .featured .title {
@@ -257,7 +258,7 @@ a.dotted-link:hover {
 }
 
 .latest .has-ribbon .text {
-  background: #3AAA64;
+  background: #3893bd;
   color: #fff;
 }
 
@@ -435,7 +436,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #3893bd;
 }
 
 .skills .svg-inline--fa {
@@ -466,7 +467,7 @@ a.dotted-link:hover {
 }
 
 .testimonials .item .quote .svg-inline--fa {
-  color: #79d19a;
+  color: #3893bd;
   margin-right: 15px;
 }
 
@@ -530,7 +531,7 @@ a.dotted-link:hover {
 }
 
 .languages .item .svg-inline--fa {
-  color: #79d19a;
+  color: #3893bd;
 }
 
 /* Blog Section */
@@ -828,3 +829,35 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+.technology {
+  font-size: 3rem;
+} 
+.technology-text {
+  font-size: 5rem;
+}
+.technology-bigger {
+  font-size: 7rem;
+}
+.tech-list1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.tech-list2{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.technology-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
